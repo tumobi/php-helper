@@ -1,0 +1,38 @@
+{
+  "name": "php-helper",
+  "version": "1.0.0",
+  "description": "Node.js 实现的 PHP 常用函数",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "lint": "eslint --ext .js lib test",
+    "lint-fix": "eslint --fix --ext .js lib test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tumobi/php-helper.git"
+  },
+  "author": {
+    "name": "Tumobi",
+    "email": "tumobi@163.com",
+    "url": "https://nideshop.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tumobi/php-helper/issues"
+  },
+  "homepage": "https://github.com/tumobi/php-helper#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "mocha": "^5.2.0",
+    "should": "^13.2.1"
+  },
+  "dependencies": {
+    "is": "^3.2.1"
+  }
+}

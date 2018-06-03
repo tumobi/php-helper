@@ -1,0 +1,12 @@
+{
+  "extends": "standard",
+  "env": {
+    "node": true,
+    "commonjs": true,
+    "es6": true,
+    "mocha": true
+  },
+  "rules": {
+    "camelcase": ["off", { "properties": "never" }]
+  }
+}
