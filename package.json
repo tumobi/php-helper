@@ -1,7 +1,7 @@
 {
   "name": "php-helper",
-  "version": "1.1.4",
-  "description": "Node.js 实现的 PHP 常用函数",
+  "version": "1.1.5",
+  "description": "PHP Functions in Node.js",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha test/**",
