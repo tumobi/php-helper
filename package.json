@@ -1,16 +1,16 @@
 {
   "name": "php-helper",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Node.js 实现的 PHP 常用函数",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha",
+    "test": "./node_modules/mocha/bin/mocha test/**",
     "lint": "eslint --ext .js lib test",
     "lint-fix": "eslint --fix --ext .js lib test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tumobi/php-helper.git"
+    "url": "git+https://github.com/php-to-node/php-helper.git"
   },
   "author": {
     "name": "Tumobi",
@@ -19,9 +19,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tumobi/php-helper/issues"
+    "url": "https://github.com/php-to-node/php-helper/issues"
   },
-  "homepage": "https://github.com/tumobi/php-helper#readme",
+  "homepage": "https://github.com/php-to-node/php-helper#readme",
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
