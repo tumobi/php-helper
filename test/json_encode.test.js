@@ -1,5 +1,5 @@
 require('should')
-const json_encode = require('../../lib/json/json_encode')
+const json_encode = require('../lib/json_encode')
 
 describe('json_encode.js', function () {
   it('json_encode', function () {

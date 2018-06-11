@@ -1,5 +1,5 @@
 require('should')
-const json_decode = require('../../lib/json/json_decode')
+const json_decode = require('../lib/json_decode')
 
 describe('json_decode.js', function () {
   it('json_decode', function () {

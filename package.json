@@ -1,7 +1,7 @@
 {
   "name": "php-helper",
-  "version": "1.1.5",
-  "description": "PHP Functions in Node.js",
+  "version": "1.2.0",
+  "description": "Use Node.js to implement PHP's common built-in functions.",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha test/**",
@@ -12,6 +12,11 @@
     "type": "git",
     "url": "git+https://github.com/php-to-node/php-helper.git"
   },
+  "keywords": [
+    "php",
+    "function",
+    "php-helper"
+  ],
   "author": {
     "name": "Tumobi",
     "email": "tumobi@163.com",

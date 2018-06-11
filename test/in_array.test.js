@@ -1,5 +1,5 @@
 require('should')
-const in_array = require('../../lib/array/in_array')
+const in_array = require('../lib/in_array')
 
 describe('array - in_array.js', function () {
   it('in_array', function () {

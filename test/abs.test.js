@@ -1,5 +1,5 @@
 require('should')
-const abs = require('../../lib/math/abs')
+const abs = require('../lib/abs')
 
 describe('abs.js', function () {
   it('abs', function () {
