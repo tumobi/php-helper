@@ -1,6 +1,6 @@
 {
   "name": "php-helper",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Use Node.js to implement PHP's common built-in functions.",
   "main": "index.js",
   "scripts": {
